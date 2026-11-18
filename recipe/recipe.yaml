@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: libnfs
-  version: "8.0.0"
+  version: "8.0.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/sahlberg/libnfs/archive/refs/tags/libnfs-${{ version }}.tar.gz
-  sha256: bc91216e927a85142b5de611c7f711558e02119a7daad67620ea631634038350
+  sha256: 03653086471ceddd846077151adc6fda9ebc47118010a196e27f4f2e3e5e32f0
 
 build:
   number: 0
